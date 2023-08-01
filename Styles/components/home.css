@@ -89,7 +89,7 @@ em{
 
 @media (min-width: 640px) {
         .home{
-            margin-top: 0.1rem;
+            margin-top: 0.5rem;
         }
        .home__image{
         width: 18rem;
