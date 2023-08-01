@@ -59,12 +59,12 @@ em{
         font-size: var(--size-2xl);
         line-height: 0;
            line-height: 0.9;
-           margin-top: 0.5rem;
+           margin-top: 0.3rem;
      
  }
     .home__title{
         line-height: 0;
-        font-size: var(--size-3xl);
+        font-size: var(--size-4xl);
            line-height: 0.9;  
            margin-top: -2rem;
     }
