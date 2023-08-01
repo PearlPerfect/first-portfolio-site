@@ -127,7 +127,6 @@ em{
         line-height: 0.3;
         font-size: var(--size-4xl);  
         font-weight: bolder;
-        margin-top: 0.1rem;
     }
     
     .home__description{
