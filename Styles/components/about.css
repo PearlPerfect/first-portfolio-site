@@ -50,6 +50,9 @@
     width: 15rem;
     border-radius: 10px;
 }
+.about__image-container{
+    margin: 0 auto;
+ }
 
 /*xtrasmall*/
 @media (min-width: 375px) {
