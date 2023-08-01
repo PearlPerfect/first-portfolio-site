@@ -52,6 +52,7 @@ em{
     .home__image{
         width: 18rem;
         height: 18rem;
+        margin-top: -4rem;
         
     }
     .home__subtitle{
