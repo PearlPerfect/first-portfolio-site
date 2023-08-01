@@ -129,7 +129,7 @@ em{
     }
     .home__title{
         line-height: 0.3;
-        font-size: var(--size-5xl);  
+        font-size: var(--size-4xl);  
         font-weight: bolder;
         margin-top: 0.5rem;
     }
@@ -146,8 +146,8 @@ em{
         font-size: var(--size-lg);
     }
     .about__image{
-        height: 30rem;
-        width: 30rem;
+        height: 28rem;
+        width: 28rem;
     }
     
  
@@ -163,8 +163,8 @@ em{
         
     }
     .about__image{
-        height: 30rem;
-        width: 30rem;
+        height: 28rem;
+        width: 28rem;
     }
     
 }
