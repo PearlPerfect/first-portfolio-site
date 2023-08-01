@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .home__image{
     width: 8rem;
@@ -47,6 +47,7 @@ em{
 @media (min-width: 475px) {
     .home{
         gap: 1rem;
+
      
     }
     .home__image{
