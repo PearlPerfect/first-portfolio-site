@@ -145,10 +145,10 @@ em{
     .home__reachOutBtn{
         font-size: var(--size-lg);
     }
-    .about__image{
+    /* .about__image{
         height: 28rem;
         width: 28rem;
-    }
+    } */
     em{
         margin-top: -2rem;
     }

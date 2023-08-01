@@ -109,7 +109,7 @@
         margin-bottom: 0;
     }
     .header__menuLinks{
-        font-size: var(--size-xl);
+        font-size: var(--size-lg);
         
     }
     
@@ -120,7 +120,7 @@
     }
     
       .header__resume{
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
       }
 
 }
