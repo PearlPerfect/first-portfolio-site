@@ -50,8 +50,8 @@ em{
      
     }
     .home__image{
-        width: 18rem;
-        height: 18rem;
+        width: 15rem;
+        height: 15rem;
         margin-top: -6rem;
         
     }
@@ -59,7 +59,7 @@ em{
         font-size: var(--size-2xl);
         line-height: 0;
            line-height: 0.9;
-           margin-top: -2rem;
+           margin-top: -1rem;
      
  }
     .home__title{
@@ -80,7 +80,7 @@ em{
         
     }
     em{
-        margin-top: -3rem;
+        margin-top: -2.5rem;
     }
 }
 
