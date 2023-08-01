@@ -101,6 +101,9 @@ em{
         margin-top: -1rem;
         
     }
+    .home__description{
+        margin-top:0;
+    }
 }
 
 /* mediumScreen*/
