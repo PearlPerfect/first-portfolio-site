@@ -133,20 +133,21 @@ em{
     .home__description{
         font-size: var(--size-lg);
         letter-spacing: 0.5;
-        margin-top: 0.5rem;
+        margin-top: 0.1rem;
         
       
     }
     
     .home__reachOutBtn{
         font-size: var(--size-lg);
+        margin-top: -2rem;
     }
     .about__image{
         height: 28rem;
         width: 28rem;
     }
     em{
-        margin-top: -2rem;
+        margin-top: -3rem;
     }
  
 }
