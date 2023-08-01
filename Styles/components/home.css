@@ -124,12 +124,12 @@ em{
     .home__subtitle{
         font-size: var(--size-2xl);
         line-height: 0.3;
-        margin-top: 1.5rem;
+        margin-top: 0.5rem;
 
     }
     .home__title{
         line-height: 0.3;
-        font-size: var(--size-5xl);  
+        font-size: var(--size-4xl);  
         font-weight: bolder;
         margin-top: 0.3rem;
     }
