@@ -18,7 +18,7 @@
     color: #020617;
     width: var(--size-2xl);
     height: var(--size-2xl);
-    display: block;
+    display: flex;
     cursor: pointer;
 }
 .header__closeBtn{
@@ -54,9 +54,6 @@
 /* mediumScreen*/
 
 @media (min-width: 768px) {
-    .header{
-        margin-bottom: 0;
-    }
     .header__menu{
         display: flex;
         list-style: none;

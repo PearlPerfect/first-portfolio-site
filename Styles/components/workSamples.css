@@ -53,23 +53,24 @@
 
 .workSamples__image-container img{
     border-radius: 10px;
-    height: 23rem;
-    width: 28rem;
+    height: 20rem;
+    width: 22rem;
+    margin: 0 auto;
     
 }
 
 .workSamples__featuresOne{
-    font-size: var(--size-sm);
+    font-size: var(--size-lg);
     color: var(--texts-color);
     margin: 1rem 0;
 }
 .workSamples__featuresTwo{
     color: var(--other-text-color);
     margin-bottom: 1rem;
-    font-size: var(--size-sm);
+    font-size: var(--size-lg);
 }
 .workSamples__btn{
-    font-size: var(--size-sm);
+    font-size: var(--size-lg);
 }
 
 .workSamples__descriptionWrapper:not(:last-child){
