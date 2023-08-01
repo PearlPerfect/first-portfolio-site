@@ -94,7 +94,8 @@ em{
 
        .home__image{
         width: 18rem;
-        height: 18rem;      
+        height: 18rem;
+        margin-top: 1rem;      
     }
     .home__reachOutBtn{
 
