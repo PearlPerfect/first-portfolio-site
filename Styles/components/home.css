@@ -91,6 +91,16 @@ em{
     .home{
         margin-top: 0;
        }
+
+       .home__image{
+        width: 18rem;
+        height: 18rem;      
+    }
+    .home__reachOutBtn{
+
+        margin-top: -1rem;
+        
+    }
 }
 
 /* mediumScreen*/
