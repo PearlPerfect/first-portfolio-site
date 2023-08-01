@@ -51,38 +51,43 @@ em{
 @media (min-width: 375px) {
     .home{
         gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
 
      
     }
     .home__image{
-        width: 15rem;
-        height: 15rem;
-        margin-top: -6rem;
+        width: 17rem;
+        height: 17rem;
+        margin-top: -3rem;
         
     }
     .home__subtitle{
         font-size: var(--size-2xl);
         line-height: 0;
            line-height: 0.9;
-           margin-top: 0.3rem;
+           margin-top: 0.5rem;
      
  }
     .home__title{
         line-height: 0;
         font-size: var(--size-4xl);
            line-height: 0.9;  
-           margin-top: -2rem;
+           margin-top: 0.1rem;
     }
     
     .home__description{
-        font-size: var(--size-lg);
+        font-size: var(--size-xl);
         letter-spacing: 0;
-        margin-top: 0.2rem;
+        margin-top: 0.4rem;
     }
     
     .home__reachOutBtn{
-        font-size: var(--size-base);
-        margin-top: -2rem;
+        font-size: var(--size-xl);
+        margin-top: 0.5rem;
         
     }
     em{
