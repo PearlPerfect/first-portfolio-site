@@ -1,0 +1,139 @@
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    z-index: 9999;
+    position: relative;
+}
+
+.header__menu{
+    display: none;
+}
+
+.header__menuBarBtn{
+    color: #020617;
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    display: block;
+    cursor: pointer;
+}
+.header__closeBtn{
+        color: #020617;
+        width: var(--size-2xl);
+        height: var(--size-2xl);
+        display: none;
+        cursor: pointer;
+}
+.header__menuBarBtn:hover{
+    transform: translateY(-3px);
+}
+  
+
+/* xtraSmallScreen */
+
+@media (min-width: 475px) {
+    .header{
+        margin-bottom: 0;
+        padding-top: 1rem;
+    }
+        
+}
+
+/* smallScreen*/
+
+@media (min-width: 640px) {
+    .header{
+        margin-bottom: 0;
+    }
+}
+
+/* mediumScreen*/
+
+@media (min-width: 768px) {
+    .header{
+        margin-bottom: 0;
+    }
+    .header__menu{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        gap: 2em;
+    }
+    
+    .header__menuLinks{
+        font-size: var(--size-base);
+        font-weight: 600;
+        transition: color 0.2s;
+    }
+    
+    .header__menuLinks:hover{
+        color: var(--link-hover-text-color);
+        background: var(--button-hover-background-color);
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        transform: translateY(-3px);
+        box-shadow:0 0 50px #cffafe;
+      
+    }
+
+    .header__line{
+        padding-top: 1.5em;
+        border: 1px solid var(--links-text-color);
+    }
+    .header__menuSun{
+        color: #020617;
+        width: var(--size-base);
+        height: var(--size-base);
+        display: block;
+        cursor: pointer;
+    }
+    
+      .header__resume{
+        font-size: var(--size-xs);
+      }
+
+      .header__menuBarBtn{
+        display: none
+    };
+}
+
+/*largeScreen*/
+
+@media (min-width: 1024px) {
+    .header{
+        margin-bottom: 0;
+    }
+    .header__menuLinks{
+        font-size: var(--size-xl);
+        
+    }
+    
+    .header__menuSun{
+        width: var(--size-xl);
+        height: var(--size-xl);
+        
+    }
+    
+      .header__resume{
+        font-size: var(--size-sm);
+      }
+
+}
+
+/*xtraLargeScreen*/
+
+/* @media (min-width: 1280px) {
+    
+    
+} */
+
+/*2XtraLargeScreen*/
+
+/* @media (min-width: 1536px) {
+   
+} */

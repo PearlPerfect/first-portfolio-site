@@ -1,0 +1,218 @@
+:root {
+    --main-background-color: #164e63;
+    --buttons-background-color: #0891b2;
+    --buttons-text-color: #ecfeff ;
+    --background-color:#164e63;
+    --links-text-color: #e0f2fe;
+    --texts-color: #ccfbf1;
+    --other-text-color:#ecfdf5;
+    --link-hover-text-color: #99f6e4;
+    --button-hover-background-color:#0d9488 ;
+    --button-hover-text-color: #99f6e4;
+    --hr-color:#334155;
+    --white:#fafafa;
+
+
+    /* sizes */
+    --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+
+}
+*{
+    margin-top: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.light-Mode{
+    --main-background-color:  #fafafa;
+    --buttons-background-color: #0891b2;
+    --buttons-text-color: #ecfeff ;
+    --background-color:#99f6e4 ;
+    --links-text-color: #334155;
+    --texts-color: #334155;
+    --other-text-color:#334155;
+    --link-hover-text-color: #99f6e4;
+    --button-hover-background-color:#0d9488 ;
+    --button-hover-text-color: #99f6e4;
+    --hr-color:#334155;
+    --white:#164e63;
+}
+
+body{
+    font-family: 'General Sans', sans-serif;
+    background: var(--main-background-color);
+    color: var(--texts-color);
+}
+
+a {
+    color: var(--links-text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  strong {
+    color: var(--clr-indigo);
+  }
+
+.btn{
+    background: var(--buttons-background-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    color: var(--buttons-text-color);
+    outline: 0;
+    border: 0;
+    transition: transform 0.3s box-shadow 0.3s;
+    letter-spacing: -0.03em;
+    font-weight: bold;
+    
+    
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow:0 0 50px #cffafe;
+    background: var(--button-hover-background-color);
+    color: var(--button-hover-text-color);
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+li{
+    
+    text-transform: uppercase;
+}
+
+
+hr{
+    height: 5px;
+    
+}
+
+.section{
+    margin-top: 5rem;
+}
+
+
+/* xtraSmallScreen */
+
+@media (min-width: 475px) {
+    .container{
+        max-width: 475px;
+    }
+}
+
+/* smallScreen*/
+
+@media (min-width: 640px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+/* mediumScreen*/
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 768px;
+    }
+}
+
+/*largeScreen*/
+
+@media (min-width: 1024px) {
+    .container{
+        max-width: 1024px;
+    }
+
+    li{
+      font-size: var(--size-base);
+    }
+
+
+}
+
+/*xtraLargeScreen*/
+
+@media (min-width: 1280px) {
+    .container{
+        max-width: 1280px;
+    }
+    .section{
+        margin-top: 10rem;
+    }
+    
+}
+
+/*2XtraLargeScreen*/
+
+@media (min-width: 1536px) {
+    .container{
+        max-width: 1536px;
+    }
+
+    .section{
+        margin-top: 10rem;
+    }
+}
+
+
+
+/* xtraSmallScreen */
+/* @media (min-width: 475px) {
+   
+} */
+
+/* smallScreen*/
+
+/* @media (min-width: 640px) {
+   
+} */
+
+/* mediumScreen*/
+
+/* @media (min-width: 768px) {
+  
+    
+} */
+
+/*largeScreen*/
+
+/* @media (min-width: 1024px) {
+  
+} */
+
+/*xtraLargeScreen*/
+
+/* @media (min-width: 1280px) {
+   
+} */
+
+/*2XtraLargeScreen*/
+
+/* @media (min-width: 1536px) {
+  
+} */

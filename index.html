@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porfolio site</title>
+    <link rel="icon" type="image/x-icon" href="/Images/portfolioSiteLogo.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Styles/modern-normalize.css">
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <link rel="stylesheet" href="/Styles/components/header.css">
+    <link rel="stylesheet" href="/Styles/components/home.css">
+    <link rel="stylesheet" href="/Styles/components/about.css">
+    <link rel="stylesheet" href="/Styles/components/workSamples.css">
+    <link rel="stylesheet" href="/Styles/components/services.css">
+    <link rel="stylesheet" href="/Styles/components/contact.css">
+    <link rel="stylesheet" href="./Styles/components/mobileNav.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header class="header container" >
+    <nav>
+      <div class="header__logo"></div>
+        <ul class="header__menu">
+            <li><a href="#about" class="header__menuLinks">About</a></li>
+            <li><a href="#services" class="header__menuLinks">Services</a></li> 
+            <li><a href="#workSamples" class="header__menuLinks">Work Samples</a></li>
+            <li><a href="#contact" class="header__menuLinks">Contact</a></li>
+            <li class="header__line"></li> 
+            <li> 
+              <button class="header__menuSun" id="theme-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" fill="currentColor" >
+                  <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+                </svg>
+                
+              </button>
+            </li>  
+          <li>
+            <a target="_blank" class="header__resume btn" href="https://docs.google.com/document/d/1m3brASLrqX9PH1tMPPhcFJUK8qFwSAe0uWC6C98zv6k/edit">
+              Resume</a>
+          </li>
+        </ul>
+       <button class="header__menuBarBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd" d="M3 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.5A.75.75 0 013.75 9h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 9.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75zm0 4.5a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+        </svg>
+        
+       </button>
+       <button class="header__closeBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+          <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
+        </svg>
+        
+       </button>
+    </nav>
+ </header>
+
+
+ <div class="mobile-NavBar">
+  <nav>
+    <ul class="mobile_NavBarMenu">
+      <li>
+        <a href="#about" class="mobile__NavBar-Links">about</a>
+      </li>
+      <hr>
+      <li>
+        <a href="#services" class="mobile__NavBar-Links">services</a>
+      </li>
+      <hr>
+      <li>
+        <a href="#workSamples" class="mobile__NavBar-Links">workSamples</a>
+      </li>
+      <hr>
+      <li> <a href="#contact" class="mobile__NavBar-Links">contact</a></li>
+      <li class="mobile__NavBar-Links-line"></li>
+   
+      <li>
+        <button class="mobile__NavBar-MenuSun" id="theme-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 24 24" fill="currentColor" >
+            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+          </svg>
+          
+        </button>
+      </li>
+      <li> 
+        <a target="_blank" class="mobile__NavBar-Resume btn" href="https://docs.google.com/document/d/1m3brASLrqX9PH1tMPPhcFJUK8qFwSAe0uWC6C98zv6k/edit">
+          Resume</a>
+      </li>
+    </ul>
+  </nav>
+ </div>
+ <main>
+    <section class="home container" id="home">
+      <img src="/Images/photo_2023-07-31_15-48-19.jpg" alt="profilePicture" class="home__image">
+      <h2 class="home__subtitle">Hi &#128075,  I'm Samuel Bassey </h2>
+      <h1 class="home__title">I AM A WRITER</h1>
+      <em>...Igniting Minds, One Word at a Time.</em>
+      <p class="home__description">This website contains a collection of some of the articles I have written in the past. 
+        Each article is tailored specifically to meet the demand of the client and/or the nature of the target audience</p>
+        <a href="#about" class="home__reachOutBtn btn">Learn More</a>
+      </section>
+      
+    <section class="about container section" id="about">
+      <div class="about__allContents">
+        <h2 class="about__title">ABOUT</h2>
+        <p class="about__description">I'm a content writer and editor. 
+          I provide technical writing, creative writing, SEO writing, editing, and proofreading services, as well as content strategy and consultation. 
+          I specialize in creating engaging content that helps businesses communicate their message and connect with their audience.</p>
+        <p class="about__description">Whether you need compelling blog posts, social media content, or website copy, 
+          I can help you craft content that resonates with your target audience and drives conversions. 
+          With my expertise in content marketing, I can also help you develop a content strategy that aligns with your business goals and maximizes your ROI.</p>
+        
+        <h3 class="about__subtitle">SPECIALTY</h3>
+
+        <div class="about__ulContainer">
+          <ul class="about__unorderedList">
+            <li class = "about__listItems">technical writing</li>
+            <li class = "about__listItems">creative writing</li>
+            <li class = "about__listItems">SEO writing</li>
+            <li class = "about__listItems">editing</li>
+          </ul>
+          <ul class="about__unorderedList">
+            <li class = "about__listItems">proofreading</li>
+            <li class = "about__listItems">blog posts</li>
+            <li class = "about__listItems">social media content</li>
+            <li class = "about__listItems">consultation</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="about__image-container">
+        <img src="Images/photo_2023-07-31_15-48-19.jpg" alt="picture" class="about__image lazy">
+      </div>
+    </section>
+
+
+    <section class="services container section" id="services">
+      <h2 class="services__title">Services</h2>
+      <p class="services__description"><em>...I offer the following services</em></p>
+
+      <div class="services__Container">
+        <div class="services__eachService"><img src="Images/Data J.jpg" alt="image">
+        <div class="services__overlay"></div>
+        <div class="services__eachService-description">
+            <h3>Technical Writing</h3>
+            <hr>
+            <p>I specialize in creating user manuals, product documentation, and technical reports that are clear, concise, and easy to understand. 
+              Whether you need to explain complex concepts or provide step-by-step instructions, 
+              I can help you create technical content that meets your audience's needs.</p>
+        </div>
+        </div>
+        <div class="services__eachService"><img src="Images/machine learning.jpg" alt="image">
+            <div class="services__eachService-description">
+                <h3>Creative Writing</h3>
+                <hr>
+                <p>If you need engaging and creative content that captures your brand voice and tells your story, I can help you craft compelling narratives that resonate with your audience. 
+                  From product descriptions to brand stories, I can help you create content that stands out from the crowd.</p>
+            </div>
+        </div>
+            
+        <div class="services__eachService"><img src="Images/AI.jpg" alt="image">
+            <div class="services__eachService-description">
+                <h3>SEO Writing</h3>
+                <hr>
+                <p>With my expertise in search engine optimization (SEO), I can help you create content that ranks higher in search engine results and drives more traffic to your website. 
+                  I can help you optimize your website copy, blog posts, and other content to ensure that it's discoverable by your target audience</p>
+            </div></div>
+        <div class="services__eachService">
+          <img src="Images/data protection.jpg" alt="image">
+            <div class="services__eachService-description">
+                <h3>OTHERS</h3>
+                <hr>
+                <p>Other Services include</p>
+                <ul>
+                <li class="services__otherServices">editing</li>
+                <li class="services__otherServices">proofreading</li>
+                <li class="services__otherServices">consultation</li>
+                <li class="services__otherServices">blog posts</li>
+            <li class="services__otherServices">social media content</li>
+                </ul>
+            </div>
+          </div>
+    </div>
+    </section>
+
+
+
+
+    <section class="workSamples container section" id="workSamples">
+      <h2 class="workSamples__title">Work Samples</h2>
+      <div class="workSample__link-wrapper">
+        <h3 class="workSamples__subtitle"><em>...Check Out Some of My Works</em></h3>
+        <a href="https://hackernoon.com/u/sammynathaniels" class="workSamples__link" target="_blank"><svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          fill="none" viewBox="0 0 24 24" 
+          stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" 
+          d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+        </svg>
+        </a>
+      </div>
+<div class="workSamples__AllProject">
+  <!-- project1 -->
+  <h3 class="workSamples__projectTitle">Ethics of Data Collection...</h3>
+  <div class="workSamples__image-container workSamples__image1">
+    <img src="Images/AI.jpg" alt="project Image">
+  </div>
+  <div class="workSamples__descriptionWrapper workSamples__content1">
+    <h3 class="workSamples__project-subtitle">Ethics of Data Collection...</h3>
+    <p class="workSamples__featuresOne">"Are you comfortable with your private data that contains confidential information about you being collected and used?
+      Would you answer “No”,  “Yes”, or would you answer a “Maybe, with a clause?”</p>
+      <p class="workSamples__featuresTwo">I believe everyone should have an opinion concerning the way and degree of their data collection and use...</p>
+    <a href="https://hackernoon.com/the-ethics-of-data-collection-and-privacy-in-the-tech-industry" class="workSamples__btn btn">Read All</a>
+   
+  </div>
+
+  
+  <!-- project2 -->
+  <h3 class="workSamples__projectTitle">The Sketchy Pathway of Data Protection: How to...</h3>
+  <div class="workSamples__image-container workSamples__image2">
+    <img src="Images/data protection.jpg" alt="project Image">
+  </div>
+  <div class="workSamples__descriptionWrapper workSamples__content2">
+    <h3 class="workSamples__project-subtitle">The Sketchy Pathway of Data Protection: How to...</h3>
+    <p class="workSamples__featuresOne">Graham is a disturbed man surfing the internet for the best remedy to his bedwetting problem.</p>
+      <p class="workSamples__featuresTwo">In this article, I will explore some of the challenges and controversies surrounding data protection laws and actual data usage...</p>
+      <a href= "https://hackernoon.com/the-sketchy-pathway-of-data-protection-how-to-navigate-it" class="workSamples__btn btn">Read All</a>
+      
+  </div>
+ 
+    <!-- project3 -->
+  <h3 class="workSamples__projectTitle">Employing Machine Learning in The Fight Against Cyberbullying</h3>
+  <div class="workSamples__image-container workSamples__1mage3">
+    <img src="Images/machine learning.jpg" alt="project Image">
+  </div>
+    <div class="workSamples__descriptionWrapper workSamples__content3">
+      <h3 class="workSamples__project-subtitle">Employing Machine Learning in The Fight Against Cyberbullying</h3>
+    <p class="workSamples__featuresOne">Now let’s assume you are using your preferred social media site when you come across a remark that disparages your looks, 
+      intelligence, or your identity. How would you feel?</p>
+    <p class="workSamples__featuresTwo">Cyberbullying has perverse effects on the victims’ mental health and well-being,
+         frequently resulting in feelings of rage, sadness, fear, anxiety...</p>
+    <a href="https://medium.com/@sammynathaniels/employing-machine-learning-strategies-in-the-fight-against-cyberbullying-507b696ed368" class="workSamples__btn btn">Read All</a>
+   
+    </div>
+   
+ <!-- project4 -->
+  <h3 class="workSamples__projectTitle">DeFi and the Future of Crypto</h3>
+  <div class="workSamples__image-container workSamples__image4">
+    <img src="Images/Defi.jpg" alt="project Image">
+  </div>
+    <div class="workSamples__descriptionWrapper workSamples__content4">
+      <h3 class="workSamples__project-subtitle">DeFi and the Future of Crypto</h3>
+      <p class="workSamples__featuresOne">If there has been one constant thing in the crypto and blockchain sphere, it has been ‘Change’, 
+        and rightly so, because change is characteristic of any blooming industry.</p>
+    <p class="workSamples__featuresTwo">The term DeFi which translated to mean Decentralized Finance was created in a Telegram chat between Ethereum developers and entrepreneurs...</p>
+  <a href="https://wire.insiderfinance.io/defi-and-the-future-of-crypto-8959cd679340" class="workSamples__btn btn">Read All</a>
+</div>
+    
+
+   <!-- project5 -->
+   <h3 class="workSamples__projectTitle">AI Tools That Are Reshaping The Modern World Industries</h3>
+   <div class="workSamples__image-container workSamples__image5">
+     <img src="Images/Ai J.jpg" alt="project Image">
+   </div>
+     <div class="workSamples__descriptionWrapper workSamples__content5">
+      <h3 class="workSamples__project-subtitle">AI Tools That Are Reshaping The Modern World Industries</h3>
+       <p class="workSamples__featuresOne">How many times have you heard the word "AI" in 2023? There is a probability that you must have heard it too many times, 
+        especially with the popularity of ChatGPT.</p>
+        <p class="workSamples__featuresTwo"> AI, which is an acronym for Artificial Intelligence, is a fast-growing phenomenon in today's world...</p>
+       <a href="https://hackernoon.com/ai-tools-that-are-reshaping-the-modern-world-industries" class="workSamples__btn btn">Read All</a>
+     </div>
+   
+   <!-- project6 -->
+   <h3 class="workSamples__projectTitle">The Potential Impact of Quantum Computing on Cryptography and...</h3>
+   <div class="workSamples__image-container workSamples__image6">
+     <img src="Images/cryptography.jpg" alt="project Image">
+   </div>
+     <div class="workSamples__descriptionWrapper workSamples__content6">
+      <h3 class="workSamples__project-subtitle">The Potential Impact of Quantum Computing on Cryptography and...</h3>
+       <p class="workSamples__featuresOne">The world is a quantum entity where codes and languages are created to build technologies that solve complex problems...</p>
+         <p class="workSamples__featuresTwo">Cryptography is the science of encoding and decoding information using mathematical techniques and algorithms...</p>
+         <a href="https://hackernoon.com/the-potential-impact-of-quantum-computing-on-cryptography-and-the-security-of-the-blockchain-network" class="workSamples__btn btn">Read All</a>
+  </div>
+</div>
+
+      
+
+    </section>
+  
+    <section class="contact container section" id="contact">
+      <h3 class="contact__title">Let's Work Together</h3>
+      <p class="contact__description">If you're interested in working with me or have any questions about my services, 
+        send an email using the button below and I'll get back to you as soon as possible.</p>
+        <div class="contact__Links">
+          <div class="contact__each-contact"><a href="mailto:basseysamuel434@gmail.com"> <i class='bx bxs-envelope'></i></a>
+            <p class="contact__eachContact-description">Send a mail</p>
+          </div>
+          <div class="contact__each-contact"><i class='bx bxs-phone-call'> </i>
+            <p class="contact__eachContact-description">+2348132909799</p></div>
+        </div>
+        
+
+        <div class="contact__social-Media">
+          <a href="https://twitter.com/Sammy_dyksin" target="_blank"><i class='bx bxl-twitter'></i></a>
+          <a href="https://www.linkedin.com/in/samuel-bassey-9a4404129/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </section>
+ </main>
+
+
+    <script src="./Scripts/script.js"></script>
+</body>
+</html>

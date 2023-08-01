@@ -1,0 +1,128 @@
+
+.contact{
+    text-align: center;
+    background:var(--background-color);
+    padding: 2rem;
+}
+.contact__title{
+   text-transform: uppercase;
+   font-weight: bolder;
+   }
+.contact__description{
+   max-width: 60ch;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+
+.contact__social-Media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+}
+.contact__Links{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   font-weight: bold;
+
+}
+.bxs-envelope{
+    height: var(--size-base);
+    width: var(--size-base);
+    font-size: 2rem;
+}
+
+.bxs-phone-call{
+    height: var(--size-base);
+    width: var(--size-base);
+    margin-top: 0.2rem;
+    font-size: 2rem;
+}
+
+.bxl-twitter,
+.bxl-linkedin{
+    font-size: 2rem;
+}
+
+.bxl-twitter:hover,
+.bxl-linkedin:hover,
+.bxs-envelope:hover,
+.bxs-phone-call:hover{
+    transform: translateY(-3px);
+    color: var(--hr-color);
+}
+
+.contact__each-contact{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+}
+.contact__eachContact-description{
+    text-transform: uppercase;
+    color: var(--texts-color);
+}
+
+/* xtraSmallScreen */
+@media (min-width: 475px) {
+   .contact__title{
+    font-size: var(--size-lg);
+   }
+   .contact__description{
+    font-size: var(--size-base);
+   }
+   .contact__social-Media{
+    margin-top: 1rem;
+   }
+}
+
+/* smallScreen*/
+
+/* @media (min-width: 640px) {
+   
+} */
+
+/* mediumScreen*/
+
+@media (min-width: 768px) {
+    .contact__title{
+        font-size: var(--size-3xl);
+       }
+       .contact__description{
+        font-size: var(--size-xl);
+       }
+       .contact__eachContact-description{
+       font-size: var(--size-xl);
+    }
+    
+}
+
+/*largeScreen*/
+
+@media (min-width: 1024px) {
+    .bxs-envelope{
+        height: var(--size-xl);
+        width: var(--size-xl);
+    }
+    
+    .bxs-phone-call{
+        height: var(--size-xl);
+        width: var(--size-xl);
+        margin-top: 0.2rem;
+    }
+    
+}
+
+/*xtraLargeScreen*/
+
+@media (min-width: 1280px) {
+   
+}
+
+/*2XtraLargeScreen*/
+
+/* @media (min-width: 1536px) {
+  
+} */
