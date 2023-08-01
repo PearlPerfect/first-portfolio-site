@@ -48,7 +48,7 @@ em{
 
 /* xtraSmallScreen */
 
-@media (min-width: 475px) {
+@media (min-width: 375px) {
     .home{
         gap: 1rem;
 
