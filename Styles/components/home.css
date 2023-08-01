@@ -150,7 +150,7 @@ em{
         width: 28rem;
     }
     em{
-        margin-top: -3rem;
+        margin-top: -2rem;
     }
  
 }
@@ -158,7 +158,19 @@ em{
 /*xtraLargeScreen*/
 
 /* @media (min-width: 1280px) {
- 
+    .home__image{
+        width: 18rem;
+        height: 18rem;
+        margin-top: -2rem;
+        
+    }
+    .about__image{
+        height: 30rem;
+        width: 30rem;
+    }
+    .home__reachOutBtn{
+        font-size: var(--size-lg);
+    }
     
 } */
 
