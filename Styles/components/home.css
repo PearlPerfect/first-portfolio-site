@@ -88,17 +88,12 @@ em{
 /* smallScreen*/
 
 @media (min-width: 640px) {
-    .home{
-        margin-top: 1rem;
-       }
-
        .home__image{
         width: 18rem;
         height: 18rem;
         margin-top: 1rem;      
     }
     .home__reachOutBtn{
-
         margin-top: -1rem;
         
     }
