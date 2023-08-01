@@ -52,11 +52,11 @@ em{
     .home__image{
         width: 18rem;
         height: 18rem;
-        margin-top: -7rem;
+        margin-top: -6rem;
         
     }
     .home__subtitle{
-        font-size: var(--size-xl);
+        font-size: var(--size-2xl);
         line-height: 0;
            line-height: 0.9;
            margin-top: -2rem;
@@ -64,7 +64,7 @@ em{
  }
     .home__title{
         line-height: 0;
-        font-size: var(--size-4xl);
+        font-size: var(--size-3xl);
            line-height: 0.9;  
            margin-top: -1rem;
     }
@@ -76,7 +76,7 @@ em{
     
     .home__reachOutBtn{
         font-size: var(--size-base);
-        margin-top: -1rem;
+        margin-top: -2rem;
         
     }
     em{
