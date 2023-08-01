@@ -52,7 +52,7 @@ em{
     .home__image{
         width: 18rem;
         height: 18rem;
-        margin-top: -4rem;
+        margin-top: -5rem;
         
     }
     .home__subtitle{
@@ -107,8 +107,8 @@ em{
 
 @media (min-width: 1024px) {
     .home{ 
-        margin-top: 0.5rem; 
-         gap: 1.5rem;
+        margin-top: 0.2rem; 
+         gap: 1rem;
      
     }
     .home__image{
